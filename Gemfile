@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
+
 gem 'rack',          '~>1.3.0'
 gem 'rake',          '~>0.9.2.1'
 gem 'sinatra'
@@ -10,6 +11,7 @@ gem 'thin'
 
 gem 'activerecord'
 gem 'sinatra-activerecord'
+gem 'delayed_job_active_record'
 gem 'pg'
 
 group :test do

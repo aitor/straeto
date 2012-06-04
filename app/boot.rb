@@ -6,9 +6,13 @@ require 'logger'
 
 require 'coffee-script'
 require 'sinatra/base'
+require 'sinatra/activerecord'
 require 'sass'
 
+require 'delayed_job'
+
 require 'straeto'
+
 
 #require 'models/my_model'
 
